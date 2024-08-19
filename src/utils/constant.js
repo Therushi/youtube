@@ -29,7 +29,7 @@ export const SIDEBAR = [
     link: "/",
   },
 ];
-const GOOGLE_API_KEY = "AIzaSyApN0FlWWc3nw2pZhOJjoho1dKLqEgIBig";
+const GOOGLE_API_KEY = "";
 export const YOUTUBE_API = `https://youtube.googleapis.com/youtube/v3/videos?part=snippet%2CcontentDetails%2Cstatistics&chart=mostPopular&maxResults=50&regionCode=IN&key=${GOOGLE_API_KEY}`;
 
 export const YOUTUBE_SEARCH_API =
